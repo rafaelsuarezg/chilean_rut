@@ -16,7 +16,7 @@ RUT / RUN numbers have seven or eight digits, plus a verification digit, and are
 
 ## **Installation**
 ```
-$ pip install chilean_rut
+$ pip install chilean-rut
 ```
 
 ## **Usage**
