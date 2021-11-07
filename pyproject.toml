@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "chilean-rut"
+version = "0.1.0"
+description = "Module to validate, format, clean and get verification digit for Chileans RUT numbers"
+authors = ["Rafael Suarez <rafael.asg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/rafaelsuarezg/chilean_rut"
+repository = "https://github.com/rafaelsuarezg/chilean_rut"
+keywords = ["rut", "run", "chile", "chilean"]
+include = [
+    "LICENSE",
+]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Environment :: Plugins",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pylint = "^2.11.1"
+autopep8 = "^1.6.0"
+tox = "^3.24.4"
+
+[tool.poetry.scripts]
+flake8-markdown = 'flake8_markdown:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
