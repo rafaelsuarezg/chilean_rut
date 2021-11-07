@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "chilean-rut"
-version = "0.1.1"
+version = "0.1.3"
 description = "Module to validate, format, clean and get verification digit for Chileans RUT numbers"
 authors = ["Rafael Suarez <rafael.asg@gmail.com>"]
 license = "MIT"
